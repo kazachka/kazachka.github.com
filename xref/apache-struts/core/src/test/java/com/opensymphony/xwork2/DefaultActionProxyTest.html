@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>DefaultActionProxyTest xref</title>
+<link type="text/css" rel="stylesheet" href="../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../../../../../../apidocs/com/opensymphony/xwork2/DefaultActionProxyTest.html">View Javadoc</a></div><pre>
+<a class="jxr_linenumber" name="L1" href="#L1">1</a>   <strong class="jxr_keyword">package</strong> com.opensymphony.xwork2;
+<a class="jxr_linenumber" name="L2" href="#L2">2</a>   
+<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> com.opensymphony.xwork2.config.providers.XmlConfigurationProvider;
+<a class="jxr_linenumber" name="L4" href="#L4">4</a>   <strong class="jxr_keyword">import</strong> com.opensymphony.xwork2.mock.MockActionInvocation;
+<a class="jxr_linenumber" name="L5" href="#L5">5</a>   <strong class="jxr_keyword">import</strong> org.apache.struts2.StrutsInternalTestCase;
+<a class="jxr_linenumber" name="L6" href="#L6">6</a>   <strong class="jxr_keyword">import</strong> org.junit.Test;
+<a class="jxr_linenumber" name="L7" href="#L7">7</a>   
+<a class="jxr_linenumber" name="L8" href="#L8">8</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../com/opensymphony/xwork2/DefaultActionProxyTest.html">DefaultActionProxyTest</a> <strong class="jxr_keyword">extends</strong> <a href="../../../org/apache/struts2/StrutsInternalTestCase.html">StrutsInternalTestCase</a> {
+<a class="jxr_linenumber" name="L9" href="#L9">9</a>   
+<a class="jxr_linenumber" name="L10" href="#L10">10</a>      @Test
+<a class="jxr_linenumber" name="L11" href="#L11">11</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testThorwExceptionOnNotAllowedMethod() <strong class="jxr_keyword">throws</strong> Exception {
+<a class="jxr_linenumber" name="L12" href="#L12">12</a>          <strong class="jxr_keyword">final</strong> String filename = <span class="jxr_string">"com/opensymphony/xwork2/config/providers/xwork-test-allowed-methods.xml"</span>;
+<a class="jxr_linenumber" name="L13" href="#L13">13</a>          loadConfigurationProviders(<strong class="jxr_keyword">new</strong> <a href="../../../com/opensymphony/xwork2/config/providers/XmlConfigurationProvider.html">XmlConfigurationProvider</a>(filename));
+<a class="jxr_linenumber" name="L14" href="#L14">14</a>          <a href="../../../com/opensymphony/xwork2/DefaultActionProxy.html">DefaultActionProxy</a> dap = <strong class="jxr_keyword">new</strong> <a href="../../../com/opensymphony/xwork2/DefaultActionProxy.html">DefaultActionProxy</a>(<strong class="jxr_keyword">new</strong> <a href="../../../com/opensymphony/xwork2/mock/MockActionInvocation.html">MockActionInvocation</a>(), <span class="jxr_string">"strict"</span>, <span class="jxr_string">"Default"</span>, <span class="jxr_string">"notAllowed"</span>, <strong class="jxr_keyword">true</strong>, <strong class="jxr_keyword">true</strong>);
+<a class="jxr_linenumber" name="L15" href="#L15">15</a>          container.inject(dap);
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>  
+<a class="jxr_linenumber" name="L17" href="#L17">17</a>          <strong class="jxr_keyword">try</strong> {
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>              dap.prepare();
+<a class="jxr_linenumber" name="L19" href="#L19">19</a>              fail(<span class="jxr_string">"Must throw exception!"</span>);
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>          } <strong class="jxr_keyword">catch</strong> (Exception e) {
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>              assertEquals(e.getMessage(), <span class="jxr_string">"Method notAllowed for action Default is not allowed!"</span>);
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>          }
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>      }
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>  }
+</pre>
+<hr/>
+<div id="footer">Copyright &#169; 2016. All rights reserved.</div>
+</body>
+</html>
