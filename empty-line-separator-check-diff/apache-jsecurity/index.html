@@ -1,0 +1,1135 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">EmptyLineSeparator</td>
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMultipleEmptyLines
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMultipleEmptyLines
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">316</td>
+							<td id="totalBase">364</td>
+							
+								<td id="warningSeverityNumBase">364</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">316</td>
+							<td id="totalPatch">398</td>
+							
+								<td id="warningSeverityNumPatch">398</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">22</td>
+							<td id="totalDiff">34</td>
+							
+								<td id="warningSeverityNumDiff">34</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumBase">364</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumPatch">398</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumDiff">34</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">34</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/samples/spring-hibernate/src/org/jsecurity/samples/sprhib/party/User.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/samples/spring-hibernate/src/org/jsecurity/samples/sprhib/party/User.java.html#L76">76</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/authc/AbstractAuthenticator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/authc/AbstractAuthenticator.java.html#L109">109</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/authc/SimpleAccount.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/authc/SimpleAccount.java.html#L116">116</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/authc/UsernamePasswordToken.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/authc/UsernamePasswordToken.java.html#L184">184</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/authc/UsernamePasswordToken.java.html#L226">226</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/authc/pam/ModularRealmAuthenticator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/authc/pam/ModularRealmAuthenticator.java.html#L251">251</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/io/ResourceUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/io/ResourceUtils.java.html#L54">54</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/io/ResourceUtils.java.html#L105">105</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/jndi/JndiLocator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/jndi/JndiLocator.java.html#L60">60</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/jndi/JndiLocator.java.html#L112">112</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/AuthorizingRealm.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/AuthorizingRealm.java.html#L197">197</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/activedirectory/ActiveDirectoryRealm.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/activedirectory/ActiveDirectoryRealm.java.html#L88">88</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/activedirectory/ActiveDirectoryRealm.java.html#L120">120</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/ldap/AbstractLdapRealm.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/ldap/AbstractLdapRealm.java.html#L91">91</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/ldap/AbstractLdapRealm.java.html#L136">136</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/ldap/AbstractLdapRealm.java.html#L148">148</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/ldap/AbstractLdapRealm.java.html#L213">213</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/ldap/AbstractLdapRealm.java.html#L226">226</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/ldap/DefaultLdapContextFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/ldap/DefaultLdapContextFactory.java.html#L158">158</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/ldap/LdapUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/realm/ldap/LdapUtils.java.html#L68">68</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/util/AntPathMatcher.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/util/AntPathMatcher.java.html#L73">73</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/util/AntPathMatcher.java.html#L95">95</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/util/JavaEnvironment.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/util/JavaEnvironment.java.html#L89">89</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/util/StringUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/util/StringUtils.java.html#L102">102</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/util/ThreadContext.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/util/ThreadContext.java.html#L197">197</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/util/ThreadContext.java.html#L256">256</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/RedirectView.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/RedirectView.java.html#L179">179</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/WebUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/WebUtils.java.html#L61">61</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/filter/authc/AuthenticationFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/filter/authc/AuthenticationFilter.java.html#L61">61</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/servlet/JSecurityHttpServletResponse.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/servlet/JSecurityHttpServletResponse.java.html#L97">97</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/servlet/JSecurityHttpServletResponse.java.html#L200">200</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/servlet/JSecurityHttpServletResponse.java.html#L262">262</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/servlet/OncePerRequestFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/src/org/jsecurity/web/servlet/OncePerRequestFilter.java.html#L216">216</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/support/spring/src/org/jsecurity/spring/LifecycleBeanPostProcessor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/apache-jsecurity/support/spring/src/org/jsecurity/spring/LifecycleBeanPostProcessor.java.html#L77">77</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

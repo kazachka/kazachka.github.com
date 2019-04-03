@@ -1,0 +1,4134 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">EmptyLineSeparator</td>
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMultipleEmptyLines
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMultipleEmptyLines
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">750</td>
+							<td id="totalBase">1003</td>
+							
+								<td id="warningSeverityNumBase">1003</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">750</td>
+							<td id="totalPatch">1136</td>
+							
+								<td id="warningSeverityNumPatch">1136</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">116</td>
+							<td id="totalDiff">133</td>
+							
+								<td id="warningSeverityNumDiff">133</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumBase">1003</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumPatch">1136</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumDiff">133</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">133</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/Attitude.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/Attitude.java.html#L39">39</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/AttitudeProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/AttitudeProvider.java.html#L27">27</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/AttitudeProviderModifier.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/AttitudeProviderModifier.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/CelestialBodyPointed.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/CelestialBodyPointed.java.html#L29">29</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/FixedRate.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/FixedRate.java.html#L25">25</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/GroundPointing.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/GroundPointing.java.html#L31">31</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/InertialProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/InertialProvider.java.html#L28">28</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/InertialProvider.java.html#L36">36</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/LofOffset.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/LofOffset.java.html#L32">32</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/LofOffset.java.html#L113">113</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/LofOffsetPointing.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/LofOffsetPointing.java.html#L37">37</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/SpinStabilized.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/SpinStabilized.java.html#L29">29</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/TabulatedLofOffset.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/TabulatedLofOffset.java.html#L48">48</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/TabulatedProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/TabulatedProvider.java.html#L32">32</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/TabulatedProvider.java.html#L42">42</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/YawCompensation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/YawCompensation.java.html#L32">32</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/YawSteering.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/attitudes/YawSteering.java.html#L29">29</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/bodies/BodyShape.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/bodies/BodyShape.java.html#L29">29</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/bodies/IAUPoleFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/bodies/IAUPoleFactory.java.html#L151">151</a></td>
+								
+								
+									
+									<td>21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/bodies/OneAxisEllipsoid.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/bodies/OneAxisEllipsoid.java.html#L37">37</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/bodies/PosVelChebyshev.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/bodies/PosVelChebyshev.java.html#L28">28</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/data/ClasspathCrawler.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/data/ClasspathCrawler.java.html#L36">36</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/data/DirectoryCrawler.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/data/DirectoryCrawler.java.html#L35">35</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/data/NetworkCrawler.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/data/NetworkCrawler.java.html#L36">36</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/data/ZipJarCrawler.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/data/ZipJarCrawler.java.html#L40">40</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/errors/OrekitExceptionWrapper.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/errors/OrekitExceptionWrapper.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/leastsquares/BatchLSEstimator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/leastsquares/BatchLSEstimator.java.html#L50">50</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/EstimationModifier.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/EstimationModifier.java.html#L25">25</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/EstimationsProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/EstimationsProvider.java.html#L22">22</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/ObservedMeasurement.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/ObservedMeasurement.java.html#L27">27</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/RangeRate.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/RangeRate.java.html#L236">236</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/modifiers/RangeIonosphericDelayModifier.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/modifiers/RangeIonosphericDelayModifier.java.html#L132">132</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/modifiers/RangeRateIonosphericDelayModifier.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/modifiers/RangeRateIonosphericDelayModifier.java.html#L165">165</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/modifiers/RangeRateTroposphericDelayModifier.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/modifiers/RangeRateTroposphericDelayModifier.java.html#L134">134</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/modifiers/RangeTroposphericDelayModifier.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/estimation/measurements/modifiers/RangeTroposphericDelayModifier.java.html#L134">134</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/BoxAndSolarArraySpacecraft.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/BoxAndSolarArraySpacecraft.java.html#L409">409</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/BoxAndSolarArraySpacecraft.java.html#L450">450</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/BoxAndSolarArraySpacecraft.java.html#L652">652</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/Atmosphere.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/Atmosphere.java.html#L27">27</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/DTM2000.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/DTM2000.java.html#L354">354</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/DTM2000.java.html#L699">699</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/DTM2000.java.html#L718">718</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/DTM2000.java.html#L800">800</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/DTM2000InputParameters.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/DTM2000InputParameters.java.html#L25">25</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/DragForce.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/DragForce.java.html#L36">36</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/HarrisPriester.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A46" href = "#A46">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/HarrisPriester.java.html#L32">32</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/JB2006InputParameters.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A47" href = "#A47">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/JB2006InputParameters.java.html#L25">25</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/SimpleExponentialAtmosphere.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A48" href = "#A48">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/drag/SimpleExponentialAtmosphere.java.html#L30">30</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/HolmesFeatherstoneAttractionModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A49" href = "#A49">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/HolmesFeatherstoneAttractionModel.java.html#L517">517</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/potential/EGMFormatReader.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A50" href = "#A50">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/potential/EGMFormatReader.java.html#L71">71</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/potential/OceanLoadDeformationCoefficients.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A51" href = "#A51">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/potential/OceanLoadDeformationCoefficients.java.html#L34">34</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/potential/TideSystem.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A52" href = "#A52">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/potential/TideSystem.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/potential/TideSystemProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A53" href = "#A53">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/gravity/potential/TideSystemProvider.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/maneuvers/ImpulseManeuver.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A54" href = "#A54">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/forces/maneuvers/ImpulseManeuver.java.html#L98">98</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/FactoryManagedFrame.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A55" href = "#A55">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/FactoryManagedFrame.java.html#L25">25</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/Frame.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A56" href = "#A56">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/Frame.java.html#L27">27</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/FramesFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A57" href = "#A57">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/FramesFactory.java.html#L38">38</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/HelmertTransformation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A58" href = "#A58">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/HelmertTransformation.java.html#L29">29</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/ITRFProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A59" href = "#A59">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/ITRFProvider.java.html#L28">28</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/OrphanFrame.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A60" href = "#A60">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/OrphanFrame.java.html#L28">28</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/Predefined.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A61" href = "#A61">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/Predefined.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/TopocentricFrame.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A62" href = "#A62">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/TopocentricFrame.java.html#L38">38</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/Transform.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A63" href = "#A63">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/Transform.java.html#L47">47</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/UpdatableFrame.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A64" href = "#A64">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/frames/UpdatableFrame.java.html#L27">27</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/gnss/DOP.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A65" href = "#A65">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/gnss/DOP.java.html#L23">23</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/gnss/GPSAlmanac.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A66" href = "#A66">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/gnss/GPSAlmanac.java.html#L24">24</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/gnss/SEMParser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A67" href = "#A67">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/gnss/SEMParser.java.html#L34">34</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/gnss/YUMAParser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A68" href = "#A68">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/gnss/YUMAParser.java.html#L34">34</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/models/earth/EarthITU453AtmosphereRefraction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A69" href = "#A69">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/models/earth/EarthITU453AtmosphereRefraction.java.html#L136">136</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A70" href = "#A70">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/models/earth/EarthITU453AtmosphereRefraction.java.html#L151">151</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/models/earth/EarthStandardAtmosphereRefraction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A71" href = "#A71">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/models/earth/EarthStandardAtmosphereRefraction.java.html#L36">36</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/orbits/CartesianOrbit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A72" href = "#A72">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/orbits/CartesianOrbit.java.html#L38">38</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/orbits/CircularOrbit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A73" href = "#A73">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/orbits/CircularOrbit.java.html#L35">35</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/orbits/EquinoctialOrbit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A74" href = "#A74">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/orbits/EquinoctialOrbit.java.html#L35">35</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/orbits/KeplerianOrbit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A75" href = "#A75">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/orbits/KeplerianOrbit.java.html#L36">36</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/orbits/Orbit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A76" href = "#A76">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/orbits/Orbit.java.html#L301">301</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/SpacecraftState.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A77" href = "#A77">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/SpacecraftState.java.html#L50">50</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/analytical/gnss/GPSOrbitalElements.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A78" href = "#A78">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/analytical/gnss/GPSOrbitalElements.java.html#L22">22</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/analytical/tle/DeepSDP4.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A79" href = "#A79">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/analytical/tle/DeepSDP4.java.html#L28">28</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/analytical/tle/TLEConstants.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A80" href = "#A80">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/analytical/tle/TLEConstants.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/analytical/tle/TLEPropagator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A81" href = "#A81">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/analytical/tle/TLEPropagator.java.html#L36">36</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/ElevationDetector.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A82" href = "#A82">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/ElevationDetector.java.html#L28">28</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/Transformer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A83" href = "#A83">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/Transformer.java.html#L24">24</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/handlers/ContinueOnEvent.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A84" href = "#A84">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/handlers/ContinueOnEvent.java.html#L26">26</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/handlers/EventHandler.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A85" href = "#A85">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/handlers/EventHandler.java.html#L25">25</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/handlers/StopOnDecreasing.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A86" href = "#A86">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/handlers/StopOnDecreasing.java.html#L26">26</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/handlers/StopOnIncreasing.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A87" href = "#A87">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/events/handlers/StopOnIncreasing.java.html#L26">26</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/integration/AbstractIntegratedPropagator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A88" href = "#A88">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/integration/AbstractIntegratedPropagator.java.html#L59">59</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A89" href = "#A89">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/integration/AbstractIntegratedPropagator.java.html#L420">420</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/DSSTPropagator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A90" href = "#A90">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/DSSTPropagator.java.html#L173">173</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/forces/AbstractGaussianContribution.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A91" href = "#A91">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/forces/AbstractGaussianContribution.java.html#L1626">1626</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/forces/DSSTSolarRadiationPressure.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A92" href = "#A92">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/forces/DSSTSolarRadiationPressure.java.html#L65">65</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/forces/DSSTTesseral.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A93" href = "#A93">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/forces/DSSTTesseral.java.html#L1470">1470</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/forces/DSSTThirdBody.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A94" href = "#A94">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/forces/DSSTThirdBody.java.html#L2010">2010</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/forces/DSSTZonal.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A95" href = "#A95">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/forces/DSSTZonal.java.html#L1155">1155</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/AuxiliaryElements.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A96" href = "#A96">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/AuxiliaryElements.java.html#L27">27</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/GHIJjsPolynomials.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A97" href = "#A97">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/GHIJjsPolynomials.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/JacobiPolynomials.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A98" href = "#A98">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/JacobiPolynomials.java.html#L90">90</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/UpperBounds.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A99" href = "#A99">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/UpperBounds.java.html#L22">22</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/hansen/HansenUtilities.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A100" href = "#A100">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/hansen/HansenUtilities.java.html#L92">92</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/hansen/HansenZonalLinear.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A101" href = "#A101">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/propagation/semianalytical/dsst/utilities/hansen/HansenZonalLinear.java.html#L57">57</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/time/AbsoluteDate.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A102" href = "#A102">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/time/AbsoluteDate.java.html#L30">30</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/time/OffsetModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A103" href = "#A103">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/time/OffsetModel.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/time/TimeComponents.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A104" href = "#A104">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/time/TimeComponents.java.html#L31">31</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/time/TimeScalesFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A105" href = "#A105">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/time/TimeScalesFactory.java.html#L32">32</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/time/UTCTAIHistoryFilesLoader.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A106" href = "#A106">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/time/UTCTAIHistoryFilesLoader.java.html#L35">35</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/IERSConventions.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A107" href = "#A107">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/IERSConventions.java.html#L55">55</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A108" href = "#A108">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/IERSConventions.java.html#L1706">1706</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/OrekitConfiguration.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A109" href = "#A109">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/OrekitConfiguration.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/ParameterDriver.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A110" href = "#A110">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/ParameterDriver.java.html#L26">26</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A111" href = "#A111">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/ParameterDriver.java.html#L111">111</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/ParameterDriversList.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A112" href = "#A112">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/ParameterDriversList.java.html#L28">28</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/ParameterObserver.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A113" href = "#A113">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/main/java/org/orekit/utils/ParameterObserver.java.html#L22">22</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/SolarInputs97to05.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A114" href = "#A114">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/SolarInputs97to05.java.html#L42">42</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A115" href = "#A115">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/SolarInputs97to05.java.html#L224">224</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/estimation/leastsquares/OrbitDeterminationTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A116" href = "#A116">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/estimation/leastsquares/OrbitDeterminationTest.java.html#L215">215</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A117" href = "#A117">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/estimation/leastsquares/OrbitDeterminationTest.java.html#L374">374</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A118" href = "#A118">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/estimation/leastsquares/OrbitDeterminationTest.java.html#L466">466</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A119" href = "#A119">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/estimation/leastsquares/OrbitDeterminationTest.java.html#L971">971</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A120" href = "#A120">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/estimation/leastsquares/OrbitDeterminationTest.java.html#L1605">1605</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/ReferenceFieldModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A121" href = "#A121">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/gravity/ReferenceFieldModel.java.html#L37">37</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/maneuvers/SmallManeuverAnalyticalModelTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A122" href = "#A122">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/forces/maneuvers/SmallManeuverAnalyticalModelTest.java.html#L287">287</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/TODProviderTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A123" href = "#A123">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/frames/TODProviderTest.java.html#L161">161</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/models/earth/EarthITU453AtmosphereRefractionTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A124" href = "#A124">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/models/earth/EarthITU453AtmosphereRefractionTest.java.html#L35">35</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/events/AltitudeDetectorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A125" href = "#A125">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/events/AltitudeDetectorTest.java.html#L54">54</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/events/CircularFieldOfViewDetectorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A126" href = "#A126">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/events/CircularFieldOfViewDetectorTest.java.html#L125">125</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/events/CloseEventsAbstractTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A127" href = "#A127">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/events/CloseEventsAbstractTest.java.html#L1577">1577</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/events/CloseEventsAnalyticalKeplerianTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A128" href = "#A128">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/events/CloseEventsAnalyticalKeplerianTest.java.html#L8">8</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/events/FieldOfViewDetectorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A129" href = "#A129">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/test/java/org/orekit/propagation/events/FieldOfViewDetectorTest.java.html#L188">188</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/tutorials/java/fr/cs/examples/bodies/Phasing.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A130" href = "#A130">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/tutorials/java/fr/cs/examples/bodies/Phasing.java.html#L617">617</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/tutorials/java/fr/cs/examples/estimation/OrbitDetermination.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A131" href = "#A131">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/tutorials/java/fr/cs/examples/estimation/OrbitDetermination.java.html#L967">967</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/tutorials/java/fr/cs/examples/frames/Frames2.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A132" href = "#A132">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/tutorials/java/fr/cs/examples/frames/Frames2.java.html#L75">75</a></td>
+								
+								
+									
+									<td>13</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/tutorials/java/fr/cs/examples/gnss/DOPComputation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A133" href = "#A133">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/Orekit/src/tutorials/java/fr/cs/examples/gnss/DOPComputation.java.html#L53">53</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

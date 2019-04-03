@@ -1,0 +1,3447 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">EmptyLineSeparator</td>
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMultipleEmptyLines
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMultipleEmptyLines
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">4840</td>
+							<td id="totalBase">1517</td>
+							
+								<td id="warningSeverityNumBase">1517</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">4840</td>
+							<td id="totalPatch">1631</td>
+							
+								<td id="warningSeverityNumPatch">1631</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">90</td>
+							<td id="totalDiff">114</td>
+							
+								<td id="warningSeverityNumDiff">114</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumBase">1517</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumPatch">1631</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumDiff">114</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">114</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/atomic-factory/src/main/java/org/infinispan/atomic/AtomicObjectFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/atomic-factory/src/main/java/org/infinispan/atomic/AtomicObjectFactory.java.html#L19">19</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/atomic-factory/src/main/java/org/infinispan/atomic/AtomicObjectFactory.java.html#L55">55</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/atomic-factory/src/main/java/org/infinispan/atomic/AtomicObjectFactory.java.html#L64">64</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/atomic-factory/src/main/java/org/infinispan/atomic/AtomicObjectFactory.java.html#L111">111</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/atomic-factory/src/main/java/org/infinispan/atomic/sharded/collections/ShardedTreeMap.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/atomic-factory/src/main/java/org/infinispan/atomic/sharded/collections/ShardedTreeMap.java.html#L16">16</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/atomic-factory/src/main/java/org/infinispan/atomic/sharded/collections/ShardedTreeMap.java.html#L211">211</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/atomic-factory/src/test/java/org/infinispan/atomic/AtomicObjectFactoryTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/atomic-factory/src/test/java/org/infinispan/atomic/AtomicObjectFactoryTest.java.html#L160">160</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/cdi/src/main/java/org/infinispan/cdi/InputLiteral.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/cdi/src/main/java/org/infinispan/cdi/InputLiteral.java.html#L16">16</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/cdi/src/main/java/org/infinispan/cdi/util/defaultbean/AbstractDefaultProducerBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/cdi/src/main/java/org/infinispan/cdi/util/defaultbean/AbstractDefaultProducerBean.java.html#L14">14</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/cdi/src/test/java/org/infinispan/cdi/test/distexec/DistributedExecutorCDITest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/cdi/src/test/java/org/infinispan/cdi/test/distexec/DistributedExecutorCDITest.java.html#L72">72</a></td>
+								
+								
+									
+									<td>7</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/cli/cli-client/src/main/java/org/infinispan/cli/shell/Shell.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/cli/cli-client/src/main/java/org/infinispan/cli/shell/Shell.java.html#L8">8</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/main/java/org/infinispan/client/hotrod/RemoteCacheManager.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/client/hotrod-client/src/main/java/org/infinispan/client/hotrod/RemoteCacheManager.java.html#L266">266</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/io/UnsignedNumeric.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/io/UnsignedNumeric.java.html#L90">90</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/io/UnsignedNumeric.java.html#L182">182</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/BeanUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/BeanUtils.java.html#L74">74</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/EnumerationList.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/EnumerationList.java.html#L8">8</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/Immutables.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/Immutables.java.html#L27">27</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/Immutables.java.html#L144">144</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/ObjectDuplicator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/ObjectDuplicator.java.html#L13">13</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/ReflectionUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/ReflectionUtil.java.html#L35">35</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/ReflectionUtil.java.html#L246">246</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/Util.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/Util.java.html#L299">299</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/ConcurrentWeakKeyHashMap.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/ConcurrentWeakKeyHashMap.java.html#L26">26</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk7backported/ThreadLocalRandom.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk7backported/ThreadLocalRandom.java.html#L70">70</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/BoundedEquivalentConcurrentHashMapV8.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/BoundedEquivalentConcurrentHashMapV8.java.html#L1504">1504</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/BoundedEquivalentConcurrentHashMapV8.java.html#L5871">5871</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/CountedCompleter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/CountedCompleter.java.html#L610">610</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/EquivalentConcurrentHashMapV8.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/EquivalentConcurrentHashMapV8.java.html#L283">283</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/EquivalentConcurrentHashMapV8.java.html#L4293">4293</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/ForkJoinTask.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/ForkJoinTask.java.html#L336">336</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/Striped64.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/commons/src/main/java/org/infinispan/commons/util/concurrent/jdk8backported/Striped64.java.html#L283">283</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/atomic/impl/AtomicHashMapProxy.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/atomic/impl/AtomicHashMapProxy.java.html#L26">26</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/DataCommand.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/DataCommand.java.html#L4">4</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/VisitableCommand.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/VisitableCommand.java.html#L9">9</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/control/LockControlCommand.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/control/LockControlCommand.java.html#L26">26</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/read/MapCombineCommand.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/read/MapCombineCommand.java.html#L17">17</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/write/ApplyDeltaCommand.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/write/ApplyDeltaCommand.java.html#L16">16</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/write/InvalidateCommand.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/write/InvalidateCommand.java.html#L18">18</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/write/RemoveCommand.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/commands/write/RemoveCommand.java.html#L19">19</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/configuration/cache/L1Configuration.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/configuration/cache/L1Configuration.java.html#L67">67</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/configuration/cache/LoaderConfigurationChildBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/configuration/cache/LoaderConfigurationChildBuilder.java.html#L4">4</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/configuration/cache/SitesConfiguration.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/configuration/cache/SitesConfiguration.java.html#L63">63</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/configuration/global/SerializationConfigurationBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/configuration/global/SerializationConfigurationBuilder.java.html#L43">43</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/configuration/parsing/ConfigurationParser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/configuration/parsing/ConfigurationParser.java.html#L6">6</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/context/AbstractInvocationContextFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/context/AbstractInvocationContextFactory.java.html#L11">11</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/context/InvocationContextContainerImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A46" href = "#A46">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/context/InvocationContextContainerImpl.java.html#L8">8</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/distexec/mapreduce/MapReduceTask.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A47" href = "#A47">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/distexec/mapreduce/MapReduceTask.java.html#L199">199</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/distribution/topologyaware/TopologyInfo.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A48" href = "#A48">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/distribution/topologyaware/TopologyInfo.java.html#L16">16</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/interceptors/InterceptorChain.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A49" href = "#A49">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/interceptors/InterceptorChain.java.html#L177">177</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/io/GridFile.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A50" href = "#A50">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/io/GridFile.java.html#L371">371</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/iteration/EntryIterable.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A51" href = "#A51">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/iteration/EntryIterable.java.html#L8">8</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/lifecycle/AbstractModuleLifecycle.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A52" href = "#A52">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/lifecycle/AbstractModuleLifecycle.java.html#L9">9</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/partitionhandling/impl/AvailabilityStrategyContext.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A53" href = "#A53">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/partitionhandling/impl/AvailabilityStrategyContext.java.html#L11">11</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/persistence/support/SingletonCacheWriter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A54" href = "#A54">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/persistence/support/SingletonCacheWriter.java.html#L157">157</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A55" href = "#A55">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/persistence/support/SingletonCacheWriter.java.html#L178">178</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A56" href = "#A56">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/persistence/support/SingletonCacheWriter.java.html#L216">216</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/remoting/MIMECacheEntry.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A57" href = "#A57">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/remoting/MIMECacheEntry.java.html#L23">23</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/impl/TransactionTable.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A58" href = "#A58">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/impl/TransactionTable.java.html#L648">648</a></td>
+								
+								
+									
+									<td>7</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/lookup/DummyTransactionManagerLookup.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A59" href = "#A59">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/lookup/DummyTransactionManagerLookup.java.html#L10">10</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/xa/DldGlobalTransaction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A60" href = "#A60">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/xa/DldGlobalTransaction.java.html#L45">45</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/xa/GlobalTransaction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A61" href = "#A61">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/xa/GlobalTransaction.java.html#L15">15</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/xa/TransactionXaAdapter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A62" href = "#A62">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/xa/TransactionXaAdapter.java.html#L42">42</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/xa/recovery/RecoveryAwareTransactionTable.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A63" href = "#A63">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/transaction/xa/recovery/RecoveryAwareTransactionTable.java.html#L141">141</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/concurrent/BoundedConcurrentHashMap.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A64" href = "#A64">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/concurrent/BoundedConcurrentHashMap.java.html#L38">38</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A65" href = "#A65">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/concurrent/BoundedConcurrentHashMap.java.html#L831">831</a></td>
+								
+								
+									
+									<td>7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A66" href = "#A66">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/concurrent/BoundedConcurrentHashMap.java.html#L919">919</a></td>
+								
+								
+									
+									<td>7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A67" href = "#A67">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/concurrent/BoundedConcurrentHashMap.java.html#L1570">1570</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A68" href = "#A68">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/concurrent/BoundedConcurrentHashMap.java.html#L1573">1573</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/concurrent/TimeoutException.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A69" href = "#A69">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/concurrent/TimeoutException.java.html#L6">6</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/stream/Streams.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A70" href = "#A70">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/stream/Streams.java.html#L189">189</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A71" href = "#A71">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/main/java/org/infinispan/util/stream/Streams.java.html#L236">236</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/commons/util/concurrent/jdk8backported/ConcurrentHashMapV8.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A72" href = "#A72">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/commons/util/concurrent/jdk8backported/ConcurrentHashMapV8.java.html#L285">285</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A73" href = "#A73">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/commons/util/concurrent/jdk8backported/ConcurrentHashMapV8.java.html#L832">832</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A74" href = "#A74">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/commons/util/concurrent/jdk8backported/ConcurrentHashMapV8.java.html#L4253">4253</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/distexec/mapreduce/BaseWordCountMapReduceTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A75" href = "#A75">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/distexec/mapreduce/BaseWordCountMapReduceTest.java.html#L96">96</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/distribution/BlockingInterceptor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A76" href = "#A76">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/distribution/BlockingInterceptor.java.html#L14">14</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/replication/ReplicationQueueTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A77" href = "#A77">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/replication/ReplicationQueueTest.java.html#L120">120</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/statetransfer/StateConsumerTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A78" href = "#A78">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/statetransfer/StateConsumerTest.java.html#L199">199</a></td>
+								
+								
+									
+									<td>7</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/AbstractInfinispanTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A79" href = "#A79">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/AbstractInfinispanTest.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/MultipleCacheManagersTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A80" href = "#A80">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/MultipleCacheManagersTest.java.html#L33">33</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A81" href = "#A81">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/MultipleCacheManagersTest.java.html#L393">393</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/TestingUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A82" href = "#A82">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/TestingUtil.java.html#L155">155</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A83" href = "#A83">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/TestingUtil.java.html#L322">322</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A84" href = "#A84">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/TestingUtil.java.html#L565">565</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A85" href = "#A85">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/TestingUtil.java.html#L829">829</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A86" href = "#A86">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/TestingUtil.java.html#L1360">1360</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/concurrent/StateSequencerUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A87" href = "#A87">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/core/src/test/java/org/infinispan/test/concurrent/StateSequencerUtil.java.html#L16">16</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/extended-statistics/src/main/java/org/infinispan/stats/CacheStatisticCollector.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A88" href = "#A88">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/extended-statistics/src/main/java/org/infinispan/stats/CacheStatisticCollector.java.html#L22">22</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/extended-statistics/src/main/java/org/infinispan/stats/TransactionStatistics.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A89" href = "#A89">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/extended-statistics/src/main/java/org/infinispan/stats/TransactionStatistics.java.html#L14">14</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/lucene/directory-provider/src/test/java/org/infinispan/hibernate/search/OverrideConfigurationAppliedTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A90" href = "#A90">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/lucene/directory-provider/src/test/java/org/infinispan/hibernate/search/OverrideConfigurationAppliedTest.java.html#L18">18</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/lucene/lucene-directory/src/main/java/org/infinispan/lucene/cacheloader/configuration/LuceneLoaderConfigurationBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A91" href = "#A91">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/lucene/lucene-directory/src/main/java/org/infinispan/lucene/cacheloader/configuration/LuceneLoaderConfigurationBuilder.java.html#L23">23</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/lucene/lucene-directory/src/main/java/org/infinispan/lucene/impl/DirectoryImplementor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A92" href = "#A92">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/lucene/lucene-directory/src/main/java/org/infinispan/lucene/impl/DirectoryImplementor.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/persistence/jdbc/src/main/java/org/infinispan/persistence/jdbc/binary/JdbcBinaryStore.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A93" href = "#A93">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/persistence/jdbc/src/main/java/org/infinispan/persistence/jdbc/binary/JdbcBinaryStore.java.html#L609">609</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/query/src/main/java/org/infinispan/query/dsl/embedded/impl/EmbeddedLuceneQuery.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A94" href = "#A94">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/query/src/main/java/org/infinispan/query/dsl/embedded/impl/EmbeddedLuceneQuery.java.html#L13">13</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/query/src/main/java/org/infinispan/query/dsl/embedded/impl/EmbeddedQuery.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A95" href = "#A95">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/query/src/main/java/org/infinispan/query/dsl/embedded/impl/EmbeddedQuery.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/query/src/main/java/org/infinispan/query/impl/CustomQueryCommand.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A96" href = "#A96">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/query/src/main/java/org/infinispan/query/impl/CustomQueryCommand.java.html#L4">4</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/query/src/main/java/org/infinispan/query/impl/externalizers/LuceneSortFieldExternalizer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A97" href = "#A97">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/query/src/main/java/org/infinispan/query/impl/externalizers/LuceneSortFieldExternalizer.java.html#L14">14</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/remote-query/remote-query-server/src/main/java/org/infinispan/query/remote/ProtobufMetadataManagerInterceptor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A98" href = "#A98">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/remote-query/remote-query-server/src/main/java/org/infinispan/query/remote/ProtobufMetadataManagerInterceptor.java.html#L34">34</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/core/src/main/scala/org/infinispan/server/core/security/ServerAuthenticationProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A99" href = "#A99">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/core/src/main/scala/org/infinispan/server/core/security/ServerAuthenticationProvider.java.html#L6">6</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/core/src/test/scala/org/infinispan/server/core/configuration/MockServerConfigurationBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A100" href = "#A100">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/core/src/test/scala/org/infinispan/server/core/configuration/MockServerConfigurationBuilder.java.html#L4">4</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/cli/src/main/java/org/infinispan/server/cli/util/InfinispanUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A101" href = "#A101">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/cli/src/main/java/org/infinispan/server/cli/util/InfinispanUtil.java.html#L21">21</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/endpoint/src/main/java/org/infinispan/server/endpoint/subsystem/EndpointExtension.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A102" href = "#A102">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/endpoint/src/main/java/org/infinispan/server/endpoint/subsystem/EndpointExtension.java.html#L33">33</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/infinispan/src/main/java/org/jboss/as/clustering/infinispan/subsystem/CacheContainerRemove.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A103" href = "#A103">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/infinispan/src/main/java/org/jboss/as/clustering/infinispan/subsystem/CacheContainerRemove.java.html#L89">89</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/infinispan/src/main/java/org/jboss/as/clustering/infinispan/subsystem/CacheContainerWriteAttributeHandler.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A104" href = "#A104">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/infinispan/src/main/java/org/jboss/as/clustering/infinispan/subsystem/CacheContainerWriteAttributeHandler.java.html#L103">103</a></td>
+								
+								
+									
+									<td>6</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/infinispan/src/main/java/org/jboss/as/clustering/infinispan/subsystem/SegmentsAndVirtualNodeConverter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A105" href = "#A105">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/infinispan/src/main/java/org/jboss/as/clustering/infinispan/subsystem/SegmentsAndVirtualNodeConverter.java.html#L26">26</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/jgroups/src/main/java/org/jboss/as/clustering/jgroups/ThreadFactoryAdapter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A106" href = "#A106">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/jgroups/src/main/java/org/jboss/as/clustering/jgroups/ThreadFactoryAdapter.java.html#L27">27</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/jgroups/src/main/java/org/jboss/as/clustering/jgroups/subsystem/JGroupsSubsystemDescribe.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A107" href = "#A107">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/jgroups/src/main/java/org/jboss/as/clustering/jgroups/subsystem/JGroupsSubsystemDescribe.java.html#L150">150</a></td>
+								
+								
+									
+									<td>6</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/management/server-rhq-plugin/src/main/java/org/infinispan/server/rhq/IspnCContainerComponent.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A108" href = "#A108">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/management/server-rhq-plugin/src/main/java/org/infinispan/server/rhq/IspnCContainerComponent.java.html#L14">14</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/testsuite/src/test/java/org/infinispan/server/test/client/rest/RESTHelper.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A109" href = "#A109">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/server/integration/testsuite/src/test/java/org/infinispan/server/test/client/rest/RESTHelper.java.html#L36">36</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/tree/src/main/java/org/infinispan/tree/Fqn.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A110" href = "#A110">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/tree/src/main/java/org/infinispan/tree/Fqn.java.html#L335">335</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A111" href = "#A111">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/tree/src/main/java/org/infinispan/tree/Fqn.java.html#L394">394</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/tree/src/main/java/org/infinispan/tree/NodeNotExistsException.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A112" href = "#A112">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/tree/src/main/java/org/infinispan/tree/NodeNotExistsException.java.html#L6">6</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/tree/src/test/java/org/infinispan/api/tree/NodeAPITest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A113" href = "#A113">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/tree/src/test/java/org/infinispan/api/tree/NodeAPITest.java.html#L101">101</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/tree/src/test/java/org/infinispan/api/tree/TreeCacheAPITest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A114" href = "#A114">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/infinispan/tree/src/test/java/org/infinispan/api/tree/TreeCacheAPITest.java.html#L93">93</a></td>
+								
+								
+									
+									<td>4</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

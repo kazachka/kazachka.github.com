@@ -1,0 +1,3041 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">EmptyLineSeparator</td>
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMultipleEmptyLines
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMultipleEmptyLines
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">752</td>
+							<td id="totalBase">1208</td>
+							
+								<td id="warningSeverityNumBase">1208</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">752</td>
+							<td id="totalPatch">1308</td>
+							
+								<td id="warningSeverityNumPatch">1308</td>
+							
+						</tr>
+						<tr class="d">
+							<td>difference</td>
+							<td id="filesDiff">78</td>
+							<td id="totalDiff">100</td>
+							
+								<td id="warningSeverityNumDiff">100</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumBase">1208</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumPatch">1308</td>
+								
+							</tr>
+							<tr class="d">
+								<td>difference</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumDiff">100</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">100</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/common/FileSystemStatus.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A1" href = "#A1">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/common/FileSystemStatus.java.html#L44">44</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/common/PrivateTags.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A2" href = "#A2">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/common/PrivateTags.java.html#L43">43</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/FileSystemBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A3" href = "#A3">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/FileSystemBean.java.html#L244">244</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A4" href = "#A4">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/FileSystemBean.java.html#L354">354</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/GPPPSBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A5" href = "#A5">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/GPPPSBean.java.html#L137">137</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/GPSPSBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A6" href = "#A6">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/GPSPSBean.java.html#L383">383</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/InstanceBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A7" href = "#A7">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/InstanceBean.java.html#L772">772</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/IssuerBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A8" href = "#A8">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/IssuerBean.java.html#L205">205</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/MPPSBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A9" href = "#A9">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/MPPSBean.java.html#L386">386</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A10" href = "#A10">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/MPPSBean.java.html#L401">401</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/PrivateInstanceBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A11" href = "#A11">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/PrivateInstanceBean.java.html#L152">152</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/PrivatePatientBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A12" href = "#A12">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/PrivatePatientBean.java.html#L121">121</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/PrivateSeriesBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A13" href = "#A13">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/PrivateSeriesBean.java.html#L156">156</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/PrivateStudyBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A14" href = "#A14">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/PrivateStudyBean.java.html#L151">151</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/SeriesBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A15" href = "#A15">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/SeriesBean.java.html#L455">455</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A16" href = "#A16">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/SeriesBean.java.html#L501">501</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/StudyBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A17" href = "#A17">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/StudyBean.java.html#L352">352</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A18" href = "#A18">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/StudyBean.java.html#L642">642</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/StudyOnFileSystemBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A19" href = "#A19">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/entity/StudyOnFileSystemBean.java.html#L163">163</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/jdbc/JDBCFirebirdSequenceCreateCommand.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A20" href = "#A20">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/jdbc/JDBCFirebirdSequenceCreateCommand.java.html#L58">58</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/jdbc/QueryHSMMigrateCmd.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A21" href = "#A21">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/jdbc/QueryHSMMigrateCmd.java.html#L108">108</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/session/CodeToDeviceMappingBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A22" href = "#A22">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/session/CodeToDeviceMappingBean.java.html#L183">183</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/session/ContentManagerBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A23" href = "#A23">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/session/ContentManagerBean.java.html#L514">514</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/session/FileSystemMgt2Bean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A24" href = "#A24">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/session/FileSystemMgt2Bean.java.html#L847">847</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/session/FixPatientAttributesBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A25" href = "#A25">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/session/FixPatientAttributesBean.java.html#L114">114</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/session/UPSManagementBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A26" href = "#A26">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-ejb/src/java/org/dcm4chex/archive/ejb/session/UPSManagementBean.java.html#L413">413</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-hl7/src/java/org/dcm4chex/archive/hl7/HL7Exception.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A27" href = "#A27">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-hl7/src/java/org/dcm4chex/archive/hl7/HL7Exception.java.html#L43">43</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-hl7/src/java/org/dcm4chex/archive/hl7/HL7Service.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A28" href = "#A28">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-hl7/src/java/org/dcm4chex/archive/hl7/HL7Service.java.html#L46">46</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-rid/src/java/org/dcm4chex/rid/common/RIDRequestObject.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A29" href = "#A29">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-rid/src/java/org/dcm4chex/rid/common/RIDRequestObject.java.html#L43">43</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-rid/src/java/org/dcm4chex/rid/mbean/RIDSupport.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A30" href = "#A30">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-rid/src/java/org/dcm4chex/rid/mbean/RIDSupport.java.html#L423">423</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-rid/src/java/org/dcm4chex/rid/mbean/ecg/xml/SVGCreator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A31" href = "#A31">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-rid/src/java/org/dcm4chex/rid/mbean/ecg/xml/SVGCreator.java.html#L67">67</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-rid/src/java/org/dcm4chex/rid/mbean/ecg/xml/WaveformScalingInfo.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A32" href = "#A32">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-rid/src/java/org/dcm4chex/rid/mbean/ecg/xml/WaveformScalingInfo.java.html#L56">56</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-rid/src/java/org/dcm4chex/rid/mbean/xml/IHEDocumentList.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A33" href = "#A33">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-rid/src/java/org/dcm4chex/rid/mbean/xml/IHEDocumentList.java.html#L76">76</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/dcm/mppsscu/MPPSOrder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A34" href = "#A34">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/dcm/mppsscu/MPPSOrder.java.html#L49">49</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/dcm/storescp/StoreScpService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A35" href = "#A35">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/dcm/storescp/StoreScpService.java.html#L103">103</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/dcm/ups/UPSFindScp.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A36" href = "#A36">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/dcm/ups/UPSFindScp.java.html#L61">61</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/dcm/ups/UPSScp.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A37" href = "#A37">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/dcm/ups/UPSScp.java.html#L59">59</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/hsm/module/HSMException.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A38" href = "#A38">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/hsm/module/HSMException.java.html#L43">43</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/mbean/ConfigBackupService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A39" href = "#A39">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/mbean/ConfigBackupService.java.html#L63">63</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/mbean/DeviceService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A40" href = "#A40">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/mbean/DeviceService.java.html#L157">157</a></td>
+								
+								
+									
+									<td>9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/mbean/MD5CheckService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A41" href = "#A41">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/mbean/MD5CheckService.java.html#L167">167</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/util/NumericCharacterReference.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A42" href = "#A42">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/util/NumericCharacterReference.java.html#L43">43</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/xdsi/XDSIDatasetDocument.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A43" href = "#A43">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/xdsi/XDSIDatasetDocument.java.html#L91">91</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/xdsi/XDSIService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A44" href = "#A44">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;//&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/xdsi/XDSIService.java.html#L151">151</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/xdsi/XDSMetadata.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A45" href = "#A45">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-sar/src/java/org/dcm4chex/archive/xdsi/XDSMetadata.java.html#L73">73</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-wado/src/java/org/dcm4chex/wado/mbean/WADOService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A46" href = "#A46">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-wado/src/java/org/dcm4chex/wado/mbean/WADOService.java.html#L167">167</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-wado/src/java/org/dcm4chex/wado/mbean/cache/WADOCacheImplSun.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A47" href = "#A47">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-wado/src/java/org/dcm4chex/wado/mbean/cache/WADOCacheImplSun.java.html#L20">20</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-wado/src/java/org/dcm4chex/wado/web/WADOServlet.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A48" href = "#A48">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-wado/src/java/org/dcm4chex/wado/web/WADOServlet.java.html#L137">137</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/AddWorklistCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A49" href = "#A49">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/AddWorklistCtrl.java.html#L52">52</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/Errable.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A50" href = "#A50">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/Errable.java.html#L45">45</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/FolderForm.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A51" href = "#A51">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/FolderForm.java.html#L383">383</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/FolderMoveDelegate.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A52" href = "#A52">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/FolderMoveDelegate.java.html#L141">141</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A53" href = "#A53">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/FolderMoveDelegate.java.html#L348">348</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A54" href = "#A54">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/FolderMoveDelegate.java.html#L462">462</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A55" href = "#A55">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/FolderMoveDelegate.java.html#L479">479</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A56" href = "#A56">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/FolderMoveDelegate.java.html#L532">532</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/DCMUser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A57" href = "#A57">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/DCMUser.java.html#L46">46</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A58" href = "#A58">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/DCMUser.java.html#L131">131</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserAdminConsoleCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A59" href = "#A59">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserAdminConsoleCtrl.java.html#L44">44</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserAdminModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A60" href = "#A60">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserAdminModel.java.html#L63">63</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A61" href = "#A61">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserAdminModel.java.html#L82">82</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserChgPwdCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A62" href = "#A62">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserChgPwdCtrl.java.html#L43">43</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserChgPwdSubmitCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A63" href = "#A63">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserChgPwdSubmitCtrl.java.html#L43">43</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserListCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A64" href = "#A64">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/admin/UserListCtrl.java.html#L44">44</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEDeleteCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A65" href = "#A65">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEDeleteCtrl.java.html#L43">43</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEEchoCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A66" href = "#A66">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEEchoCtrl.java.html#L45">45</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEEchoModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A67" href = "#A67">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEEchoModel.java.html#L45">45</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A68" href = "#A68">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEEchoModel.java.html#L58">58</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A69" href = "#A69">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEEchoModel.java.html#L86">86</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEEditCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A70" href = "#A70">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEEditCtrl.java.html#L45">45</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEFormCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A71" href = "#A71">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/ae/AEFormCtrl.java.html#L45">45</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gppps/GPPPSConsoleCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A72" href = "#A72">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gppps/GPPPSConsoleCtrl.java.html#L58">58</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gppps/GPPPSDelegate.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A73" href = "#A73">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gppps/GPPPSDelegate.java.html#L102">102</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A74" href = "#A74">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gppps/GPPPSDelegate.java.html#L127">127</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gppps/model/GPPPSEntry.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A75" href = "#A75">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gppps/model/GPPPSEntry.java.html#L299">299</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gppps/model/GPPPSModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A76" href = "#A76">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gppps/model/GPPPSModel.java.html#L84">84</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gpwl/GPWLConsoleCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A77" href = "#A77">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gpwl/GPWLConsoleCtrl.java.html#L60">60</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A78" href = "#A78">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gpwl/GPWLConsoleCtrl.java.html#L163">163</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gpwl/model/GPWLFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A79" href = "#A79">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/gpwl/model/GPWLFilter.java.html#L264">264</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mcmc/MCMConsoleCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A80" href = "#A80">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mcmc/MCMConsoleCtrl.java.html#L115">115</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A81" href = "#A81">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mcmc/MCMConsoleCtrl.java.html#L156">156</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mcmc/model/MCMModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A82" href = "#A82">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mcmc/model/MCMModel.java.html#L72">72</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A83" href = "#A83">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mcmc/model/MCMModel.java.html#L224">224</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mcmc/model/MediaData.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A84" href = "#A84">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mcmc/model/MediaData.java.html#L270">270</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/model/SeriesModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A85" href = "#A85">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/model/SeriesModel.java.html#L107">107</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mpps/MPPSConsoleCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A86" href = "#A86">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mpps/MPPSConsoleCtrl.java.html#L58">58</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A87" href = "#A87">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mpps/MPPSConsoleCtrl.java.html#L167">167</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mpps/model/MPPSEntry.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A88" href = "#A88">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mpps/model/MPPSEntry.java.html#L69">69</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A89" href = "#A89">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mpps/model/MPPSEntry.java.html#L266">266</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mpps/model/MPPSModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A90" href = "#A90">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mpps/model/MPPSModel.java.html#L88">88</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mwl/MWLConsoleCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A91" href = "#A91">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mwl/MWLConsoleCtrl.java.html#L64">64</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A92" href = "#A92">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mwl/MWLConsoleCtrl.java.html#L213">213</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A93" href = "#A93">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/mwl/MWLConsoleCtrl.java.html#L293">293</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/permission/StudyPermissionModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A94" href = "#A94">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/permission/StudyPermissionModel.java.html#L69">69</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/tf/SRManifestModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A95" href = "#A95">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/tf/SRManifestModel.java.html#L59">59</a></td>
+								
+								
+									
+									<td>1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A96" href = "#A96">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/tf/SRManifestModel.java.html#L167">167</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/tf/TFModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A97" href = "#A97">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/tf/TFModel.java.html#L101">101</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A98" href = "#A98">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/tf/TFModel.java.html#L242">242</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/xdsi/ShowManifestCtrl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A99" href = "#A99">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/xdsi/ShowManifestCtrl.java.html#L150">150</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/xdsi/XDSIModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td><a name="A100" href = "#A100">#</a></td>
+								<td>warning</td>
+								<td>EmptyLineSeparator</td>
+								<td>&#39;/*&#39; has more than 1 empty lines before.</td>
+								
+									
+									<td><a href = "xref/home/zenigata/workspace/contribution/checkstyle-tester/repositories/nbia-dcm4che-tools/dcm4jboss-web/src/java/org/dcm4chex/archive/web/maverick/xdsi/XDSIModel.java.html#L195">195</a></td>
+								
+								
+									
+									<td>5</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
